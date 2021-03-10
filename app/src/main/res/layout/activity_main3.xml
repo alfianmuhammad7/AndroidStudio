@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@drawable/bg">
+
+
+    <Button
+        android:id="@+id/buttonArt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/buttontm"
+        android:text="Biodata"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFDFD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBrd3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/buttontm"
+        android:text="Beranda"
+        android:textColor="@color/black"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="353dp"
+        android:layout_height="215dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/foto"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="378dp"
+        android:layout_height="300dp"
+        android:text="Sejak pandemi virus corona mulai menginfeksi Indonesia pada awal maret lalu, seluruh kegiatan pembelajaran di perguruan tinggi mulai beralih melalui daring atau online. Semenjak itu pula, beragam keluhan mulai dirasakan oleh para mahasiswa, baik dari efektivitas maupun fasilitas pembelajran yang kurang memadai. Secara bergiliran, nama sejumlah kampus pun memuncaki tranding di media sosial Twitter dalam beberapa minggu terakhir. Mereka menuntut agar uang kuliah tunggal (UKT) diturunkan dan mendapat fasilitas yang memadai saat kuliah daring, seperti subsidi pulsa bagi Mahasiswa"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
